@@ -23,10 +23,11 @@ group :development, :test do
 end
 
 group :test do
-  gem 'fabrication'
   gem 'capybara'
   gem 'cucumber-rails', :require => false
   gem 'database_cleaner'
+  gem 'dirty'
+  gem 'fabrication'
   gem 'growl'
   gem 'guard-rspec'
   gem 'guard-spork'

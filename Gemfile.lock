@@ -70,6 +70,7 @@ GEM
     debugger-ruby_core_source (1.1.5)
     decent_exposure (2.0.0)
     diff-lcs (1.1.3)
+    dirty (0.0.7)
     erubis (2.7.0)
     eventmachine (1.0.0)
     execjs (1.4.0)
@@ -224,6 +225,7 @@ DEPENDENCIES
   coffee-rails (~> 3.2.1)
   cucumber-rails
   database_cleaner
+  dirty
   fabrication
   faker
   growl
