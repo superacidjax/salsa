@@ -13,8 +13,24 @@ group :assets do
 end
 
 group :development, :test do
-  gem 'thin'
+  gem 'faker'
+  gem 'guard-cucumber'
   gem 'pry-debugger'
   gem 'pry-rails'
   gem 'pry-stack_explorer'
+  gem 'rspec-rails'
+  gem 'thin'
+end
+
+group :test do
+  gem 'fabrication'
+  gem 'capybara'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner'
+  gem 'growl'
+  gem 'guard-rspec'
+  gem 'guard-spork'
+  gem 'launchy'
+  gem 'rb-fsevent', :require => false
+  gem 'spork'
 end
