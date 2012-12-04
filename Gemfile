@@ -7,6 +7,7 @@ gem 'carrierwave'
 gem 'fog'
 gem 'hashrocket-rails'
 gem 'jquery-rails'
+gem 'thin'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -21,7 +22,6 @@ group :development, :test do
   gem 'pry-rails'
   gem 'pry-stack_explorer'
   gem 'rspec-rails'
-  gem 'thin'
 end
 
 group :test do
