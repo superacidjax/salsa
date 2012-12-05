@@ -16,4 +16,5 @@ CarrierWave.configure do |config|
     config.storage = :file
     config.store_dir = "uploads/#{Rails.env}"
     config.enable_processing = Rails.env.development?
+  end
 end
