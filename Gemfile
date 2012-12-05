@@ -7,6 +7,7 @@ gem 'carrierwave'
 gem 'fog'
 gem 'hashrocket-rails'
 gem 'jquery-rails'
+gem 'mini_magick'
 gem 'thin'
 
 group :assets do
