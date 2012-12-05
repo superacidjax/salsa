@@ -2,17 +2,17 @@
 
 %p
   %b Title:
-  = @product.title
+  = product.title
 %p
   %b Description:
-  = @product.description
+  = product.description
 %p
   %b Image url:
-  = image_tag(@product.image_url.small)
+  = image_tag(product.image_url.small)
 %p
   %b Price:
-  = @product.price
+  = product.price
 
-= link_to 'Edit', edit_product_path(@product)
+= link_to 'Edit', edit_product_path(product)
 \|
 = link_to 'Back', products_path
