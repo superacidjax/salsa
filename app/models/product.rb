@@ -4,6 +4,7 @@ class Product < ActiveRecord::Base
   mount_uploader :image_url, ProductImageUploader
 
   validates :title, presence: true
-  validates :image_url, presence: true
+  # validates :image_url, presence: true
   validates :description, presence: true
+  validates :price, presence: true
 end
