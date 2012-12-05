@@ -7,6 +7,7 @@ gem 'carrierwave'
 gem 'fog'
 gem 'hashrocket-rails'
 gem 'jquery-rails'
+gem 'mini_magick'
 gem 'thin'
 
 group :assets do
@@ -20,7 +21,7 @@ group :development, :test do
   gem 'guard-cucumber'
   gem 'pry-debugger'
   gem 'pry-rails'
-  gem 'pry-stack_explorer'
+  # gem 'pry-stack_explorer'
   gem 'rspec-rails'
 end
 
