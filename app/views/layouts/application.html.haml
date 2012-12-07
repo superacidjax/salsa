@@ -1,7 +1,7 @@
 !!!
 %html
   %head
-    %title [TITLE]
+    %title SebastiBell Salsas
     = stylesheet_link_tag    'application'
     = javascript_include_tag 'application'
     = csrf_meta_tags
@@ -9,5 +9,23 @@
     / /[if IE]
     /   = javascript_include_tag 'html5'
   %body
+    %ul
+      %li
+        = link_to "About Us", '#'
+      %li
+        = link_to "Recipes", '#'
+      %li
+        = link_to "Help", '#'
+      %li
+        = link_to "My Account", '#'
     = render 'flashes'
     = yield
+    %ul
+      %li
+        = link_to "About Us", '#'
+      %li
+        = link_to "Recipes", '#'
+      %li
+        = link_to "Help", '#'
+      %li
+        = link_to "My Account", '#'

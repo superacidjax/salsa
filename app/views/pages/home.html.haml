@@ -1,0 +1,12 @@
+%h1 Welcome to Salsa!
+
+%h2
+  Here are our wonderful salsas!
+- products.each do |product|
+  %ul
+    %li
+      = link_to product.title, product
+    %li
+      = product.description
+    %li
+      = number_to_currency(product.price)
